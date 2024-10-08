@@ -1,0 +1,15 @@
+C:\Users\yunus\Desktop\KitapDuragi\KitapDuragi.business\bin\Debug\netstandard2.0\KitapDuragi.business.deps.json
+C:\Users\yunus\Desktop\KitapDuragi\KitapDuragi.business\bin\Debug\netstandard2.0\KitapDuragi.business.dll
+C:\Users\yunus\Desktop\KitapDuragi\KitapDuragi.business\bin\Debug\netstandard2.0\KitapDuragi.business.pdb
+C:\Users\yunus\Desktop\KitapDuragi\KitapDuragi.business\bin\Debug\netstandard2.0\KitapDuragi.data.dll
+C:\Users\yunus\Desktop\KitapDuragi\KitapDuragi.business\bin\Debug\netstandard2.0\KitapDuragi.entity.dll
+C:\Users\yunus\Desktop\KitapDuragi\KitapDuragi.business\bin\Debug\netstandard2.0\KitapDuragi.entity.pdb
+C:\Users\yunus\Desktop\KitapDuragi\KitapDuragi.business\bin\Debug\netstandard2.0\KitapDuragi.data.pdb
+C:\Users\yunus\Desktop\KitapDuragi\KitapDuragi.business\obj\Debug\netstandard2.0\KitapDuragi.business.csproj.AssemblyReference.cache
+C:\Users\yunus\Desktop\KitapDuragi\KitapDuragi.business\obj\Debug\netstandard2.0\KitapDuragi.business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yunus\Desktop\KitapDuragi\KitapDuragi.business\obj\Debug\netstandard2.0\KitapDuragi.business.AssemblyInfoInputs.cache
+C:\Users\yunus\Desktop\KitapDuragi\KitapDuragi.business\obj\Debug\netstandard2.0\KitapDuragi.business.AssemblyInfo.cs
+C:\Users\yunus\Desktop\KitapDuragi\KitapDuragi.business\obj\Debug\netstandard2.0\KitapDuragi.business.csproj.CoreCompileInputs.cache
+C:\Users\yunus\Desktop\KitapDuragi\KitapDuragi.business\obj\Debug\netstandard2.0\KitapDur.B7255053.Up2Date
+C:\Users\yunus\Desktop\KitapDuragi\KitapDuragi.business\obj\Debug\netstandard2.0\KitapDuragi.business.dll
+C:\Users\yunus\Desktop\KitapDuragi\KitapDuragi.business\obj\Debug\netstandard2.0\KitapDuragi.business.pdb
