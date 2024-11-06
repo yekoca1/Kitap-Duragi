@@ -9,10 +9,10 @@
     ".NETStandard,Version=v2.0/": {
       "KitapDuragi.data/1.0.0": {
         "dependencies": {
+          "KitapDuragi.entity": "1.0.0",
           "Microsoft.EntityFrameworkCore.Design": "3.1.3",
           "Microsoft.EntityFrameworkCore.Sqlite": "3.1.3",
-          "NETStandard.Library": "2.0.3",
-          "KitapDuragi.entity": "1.0.0"
+          "NETStandard.Library": "2.0.3"
         },
         "runtime": {
           "KitapDuragi.data.dll": {}
@@ -422,7 +422,10 @@
       },
       "KitapDuragi.entity/1.0.0": {
         "runtime": {
-          "KitapDuragi.entity.dll": {}
+          "KitapDuragi.entity.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

@@ -1,0 +1,20 @@
+public class Comment : ICommentRepository
+{
+    private readonly AppDbContext _context;
+
+    public CommentRepository(AppDbContext context)
+    {
+        _context = context;
+    }
+
+    public void AddComment(Comment comment)
+    {
+        _context.Comments.Add(comment);
+        _context.SaveChanges();
+    }
+
+    public List<Comment> GetCommentsByProductId(int productId)
+    {
+        return _context.Comments.Where(c => c.ProductId == productId).ToList();
+    }
+}

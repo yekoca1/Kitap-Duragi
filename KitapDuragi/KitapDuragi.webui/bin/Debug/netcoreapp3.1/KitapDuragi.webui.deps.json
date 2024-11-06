@@ -842,7 +842,10 @@
           "KitapDuragi.entity": "1.0.0"
         },
         "runtime": {
-          "KitapDuragi.business.dll": {}
+          "KitapDuragi.business.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         },
         "compile": {
           "KitapDuragi.business.dll": {}
@@ -854,7 +857,10 @@
           "Microsoft.EntityFrameworkCore.Sqlite": "3.1.3"
         },
         "runtime": {
-          "KitapDuragi.data.dll": {}
+          "KitapDuragi.data.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         },
         "compile": {
           "KitapDuragi.data.dll": {}
@@ -862,7 +868,10 @@
       },
       "KitapDuragi.entity/1.0.0": {
         "runtime": {
-          "KitapDuragi.entity.dll": {}
+          "KitapDuragi.entity.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         },
         "compile": {
           "KitapDuragi.entity.dll": {}

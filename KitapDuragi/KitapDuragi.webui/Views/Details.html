@@ -1,0 +1,43 @@
+@model Product
+
+<h2>@Model.Name</h2>
+<p>@Model.Description</p>
+
+<!-- Add to Cart ve Yorum Butonları -->
+<button type="button" onclick="addToCart(@Model.Id)">Add to Cart</button>
+<button type="button" onclick="showCommentBox()">Comment</button>
+
+<!-- Yorum Yazma Alanı -->
+<div id="comment-box" style="display: none;">
+    <form asp-action="AddComment" method="post">
+        <input type="hidden" name="productId" value="@Model.Id" />
+        <div>
+            <label>User Name:</label>
+            <input type="text" name="userName" required />
+        </div>
+        <div>
+            <label>Comment:</label>
+            <textarea name="text" required></textarea>
+        </div>
+        <button type="submit">Submit Comment</button>
+    </form>
+</div>
+
+<!-- Yorumları Gösterme -->
+<h3>Comments:</h3>
+@if (ViewBag.Comments != null)
+{
+    foreach (var comment in ViewBag.Comments)
+    {
+        <div>
+            <p><strong>@comment.UserName</strong> - @comment.CreatedDate</p>
+            <p>@comment.Text</p>
+        </div>
+    }
+}
+
+<script>
+    function showCommentBox() {
+        document.getElementById("comment-box").style.display = "block";
+    }
+</script>
